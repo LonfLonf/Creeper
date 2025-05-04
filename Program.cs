@@ -15,10 +15,7 @@ class Program
             System.Drawing.Font font = new System.Drawing.Font("Courier New", 60);
             string text = "I'M THE CREEPER. CATCH ME IF YOU CAN!";
 
-            // Medir o tamanho do texto
             SizeF textSize = g.MeasureString(text, font);
-
-            // Calcular a posição centralizada
             float x = (1920 - textSize.Width) / 2;
             float y = (1080 - textSize.Height) / 2;
 
